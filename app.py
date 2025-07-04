@@ -29,10 +29,9 @@ def metrics():
         'Content-Type': 'text/plain; version=0.0.4; charset=utf-8'
     }
 
-# האנדפוינט שמראים לסער ומשחזרים בלייב
-# @app.route("/cicd-test")
-# def cicd_test():
-#     return "CI/CD Pipeline Working!", 200
+@app.route("/cicd-test")
+def cicd_test():
+    return "CI/CD Pipeline Working!", 200
 
 
 if __name__ == "__main__":
