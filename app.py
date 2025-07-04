@@ -29,6 +29,7 @@ def metrics():
         'Content-Type': 'text/plain; version=0.0.4; charset=utf-8'
     }
 
+
 @app.route("/cicd-test")
 def cicd_test():
     return "CI/CD Pipeline Working!", 200
